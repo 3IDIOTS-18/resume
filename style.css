@@ -1,0 +1,70 @@
+body{
+  background: pink;
+}
+.maindiv{
+  background: gray;
+  margin: 2%;
+  border-radius: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+.static,.dynamic{
+  background: skyblue;
+  margin: 2%;
+  border-radius: 3%;
+  box-shadow: 4px 4px 4px 4px;
+  text-align: center;
+}
+img{
+  margin:2%;
+  height:30%;
+  width:30%;
+}
+@media only screen and (min-width:350px) and (max-width:480) {
+  body{
+    background: orange;
+  }
+    .maindiv{
+      background: blue;
+      margin: 2%;
+      border-radius: 3%;
+      display: inline-block ;
+      height: 40%;
+  }
+  .static,.dynamic{
+    background: red;
+    margin: 10%;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px 4px;
+    text-align: center;
+  }
+  img{
+    margin:2%;
+    height:45%;
+    width:70%;
+  }
+}
+@media only screen and (min-width:350px) and (max-width:480) {
+  body{
+    background: blue;
+  }
+    .maindiv{
+      background: skyblue;
+      margin: 2%;
+      border-radius: 3%;
+      display: inline-block ;
+      height: 40%;
+  }
+  .static,.dynamic{
+    background: green;
+    margin: 10%;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px 4px;
+    text-align: center;
+  }
+  img{
+    margin:2%;
+    height:45%;
+    width:70%;
+  }
+}
